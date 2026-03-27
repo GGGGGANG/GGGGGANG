@@ -2,6 +2,7 @@
 
 <p>Backend Developer</p>
 <p>Java, Spring Boot, WebFlux, STOMP 기반으로 API와 서비스를 개발합니다.</p>
+<!-- profile-refresh-2026-03-27 -->
 
 <h2>Skills</h2>
 
