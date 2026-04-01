@@ -5,16 +5,11 @@
   Java, Spring Boot, WebFlux, Redis, 실시간 아키텍처, 운영 인프라
 </p>
 
-<br />
-<br />
-
 <p align="left">
   수치로 성능과 안정성을 증명하는 백엔드 엔지니어입니다.<br />
   Latency를 낮추고, 장애 가능성을 줄이며, 유지보수 가능한 구조로 서비스를 만듭니다.
 </p>
 
-<br />
-<br />
 
 <p align="left">
   <a href="mailto:gang.dev0nly@gmail.com"><img src="https://img.shields.io/badge/Email-gang.dev0nly%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -24,17 +19,11 @@
 </p>
 
 <br />
-<br />
-
-> 반복 구현은 AI에게, 판단·설계·책임은 나에게.
-
-<!-- profile-refresh-2026-04-01-ko -->
-
-<br />
-<br />
 
 ## 소개
 
+> 반복 구현은 AI에게, 판단·설계·책임은 나에게.
+> 
 - 공공기관·엔터프라이즈 시스템을 개발해온 4년차 백엔드 엔지니어입니다.
 - API 설계, 실시간 메시징, 레거시 리뉴얼, 운영 인프라, 배포 파이프라인까지 폭넓게 다뤄왔습니다.
 - Nginx/Tomcat, Apache/JBoss, Jeus/WebToB 환경을 직접 구성·배포·운영한 경험이 있습니다.
