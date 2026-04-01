@@ -23,7 +23,7 @@
 
 ## 소개
 
-- 현재 세이코어에서 공공기관·엔터프라이즈 시스템을 개발하는 4년차 백엔드 엔지니어입니다.
+- 공공기관·엔터프라이즈 시스템을 개발해온 4년차 백엔드 엔지니어입니다.
 - API 설계, 실시간 메시징, 레거시 리뉴얼, 운영 인프라, 배포 파이프라인까지 폭넓게 다뤄왔습니다.
 - Nginx/Tomcat, Apache/JBoss, Jeus/WebToB 환경을 직접 구성·배포·운영한 경험이 있습니다.
 - 퍼블리셔, 기획자, 비개발 직군과의 협업 속에서도 기술적 결정을 명확히 설명하는 데 강점이 있습니다.
@@ -55,31 +55,11 @@
 
 ## 기술 스택
 
-### 백엔드
-<img src="https://skillicons.dev/icons?i=java,spring,gradle&theme=light" alt="Backend stack" />
-<br />
-`WebFlux` `JPA` `jOOQ` `MyBatis` `STOMP`
-
-### 데이터베이스 / 캐시
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=light" alt="Database and cache" />
-<br />
-`MariaDB` `Oracle`
-
-### 인프라 / 데브옵스
-<img src="https://skillicons.dev/icons?i=linux,docker,nginx,jenkins&theme=light" alt="Infra and DevOps" />
-<br />
-`Apache` `JBoss` `Tomcat` `Jeus/WebToB` `GitLab Runner` `AWS EC2/S3`
-
-### 프론트엔드 / 앱
-<img src="https://skillicons.dev/icons?i=flutter,js,html,css&theme=light" alt="Frontend and app" />
-<br />
-`JSP` `Thymeleaf`
-
-### AI 도구
-- `Claude`: 코드 생성 / 에이전트 워크플로우
-- `Codex`: 문서 정리 / 코드리뷰
-- `Gemini`: 리서치
-- `Stitch`: UI 프로토타이핑
+- ☕ 백엔드: Java, Spring Boot, WebFlux, MyBatis, JPA, jOOQ, STOMP
+- 🗄️ 데이터베이스 / 캐시: MySQL, MariaDB, Oracle, MongoDB, Redis, PostgreSQL
+- 🛠️ 인프라 / 데브옵스: Nginx, Apache, Tomcat, Jeus/WebToB, Jenkins, GitLab Runner, Docker, AWS EC2/S3, Firebase FCM
+- 📱 프론트엔드 / 앱: Dart, JavaScript, HTML/CSS, Flutter, JSP, Thymeleaf
+- 🤖 AI 도구: Claude, Codex, Gemini, Stitch
 
 ## AI 활용 방식
 
