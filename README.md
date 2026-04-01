@@ -1,13 +1,13 @@
-<h1 align="left">Kyeongmin Kim</h1>
+<h1 align="left">김경민</h1>
 
 <p align="left">
-  <strong>AI-Native Backend Engineer · 4년차</strong><br />
-  Java, Spring Boot, WebFlux, Redis, real-time systems, and production infra
+  <strong>AI-Native 백엔드 엔지니어 · 4년차</strong><br />
+  Java, Spring Boot, WebFlux, Redis, 실시간 아키텍처, 운영 인프라
 </p>
 
 <p align="left">
-  I build backend systems that prove their value with numbers.<br />
-  Lower latency, better reliability, and delivery that stays maintainable.
+  수치로 성능과 안정성을 증명하는 백엔드 엔지니어입니다.<br />
+  Latency를 낮추고, 장애 가능성을 줄이며, 유지보수 가능한 구조로 서비스를 만듭니다.
 </p>
 
 <p align="left">
@@ -17,80 +17,80 @@
   <a href="https://www.linkedin.com/in/%EA%B2%BD%EB%AF%BC-%EA%B9%80-841a69340/"><img src="https://img.shields.io/badge/LinkedIn-Kyeongmin%20Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-> Repeat implementation to AI. Keep judgment, design, and responsibility with me.
+> 반복 구현은 AI에게, 판단·설계·책임은 나에게.
 
-<!-- profile-refresh-2026-04-01 -->
+<!-- profile-refresh-2026-04-01-ko -->
 
-## About Me
+## 소개
 
-- Backend engineer in my 4th year, currently working on public-sector and enterprise systems at SAYCORE.
-- Experienced across API design, real-time messaging, legacy renewal, infra setup, and deployment pipelines.
-- Comfortable in Nginx/Tomcat, Apache/JBoss, and Jeus/WebToB environments.
-- Strong on collaboration with publishers, planners, and non-engineering stakeholders.
+- 현재 세이코어에서 공공기관·엔터프라이즈 시스템을 개발하는 4년차 백엔드 엔지니어입니다.
+- API 설계, 실시간 메시징, 레거시 리뉴얼, 운영 인프라, 배포 파이프라인까지 폭넓게 다뤄왔습니다.
+- Nginx/Tomcat, Apache/JBoss, Jeus/WebToB 환경을 직접 구성·배포·운영한 경험이 있습니다.
+- 퍼블리셔, 기획자, 비개발 직군과의 협업 속에서도 기술적 결정을 명확히 설명하는 데 강점이 있습니다.
 
-## Core Impact
+## 핵심 성과
 
-| Metric | What changed |
+| 지표 | 내용 |
 | --- | --- |
-| `Latency -96%` | Reduced page-load latency with minimal I/O optimization in a public platform renewal project |
-| `API Latency -84%` | Refactored Spring MVC flows into WebFlux / Mono / Flux on an AI reliability platform |
-| `Error Rate -43%` | Improved system stability with server redundancy under the same scenario |
-| `Upload Reliability` | Strengthened large-file upload stability and recoverability with a file chunk upload strategy |
+| `Latency -96%` | 공공 플랫폼 리뉴얼에서 최소 I/O 최적화로 페이지 로드 Latency를 96% 단축 |
+| `API Latency -84%` | AI 신뢰성 플랫폼에서 Spring MVC 흐름을 WebFlux 기반으로 전환해 API Latency를 84% 단축 |
+| `오류율 -43%` | 동일 시나리오 기준 서버 이중화 구성으로 시스템 오류율 43% 감소 |
+| `업로드 안정성` | File Chunk Upload 전략으로 대용량 파일 업로드의 안정성과 복구 가능성 강화 |
 
-## Featured Work
+## 주요 경험
 
-### SAYCORE · Backend Developer / DevOps
-- **National Gwacheon Science Museum**  
+### 세이코어 · 백엔드 개발자 / 데브옵스
+- **국립과천과학관 전시물품관리시스템 / 통합홈페이지**  
   Spring Boot, JPA + jOOQ, PostgreSQL, Redis, Apache, JBoss  
-  Built exhibition asset management APIs, history tracking flows, infra, and deployment pipelines.
-- **Ministry of Health and Welfare Smoking Cessation Renewal**  
-  Improved page-load `Latency` by `96%` on a public platform renewal.
-- **TTA AI Reliability Certification Platform**  
-  Integrated external LLM APIs and reduced API `Latency` by `84%` with WebFlux.
+  전시물품 등록·관리·이력 추적 API를 설계하고, 운영 인프라와 배포 파이프라인을 구축했습니다.
+- **보건복지부 금연길라잡이 웹 리뉴얼**  
+  공공 플랫폼 리뉴얼 과정에서 페이지 로드 `Latency`를 `96%` 단축했습니다.
+- **TTA AI 신뢰성 검·인증 도구 개발**  
+  외부 LLM API 연동과 WebFlux 기반 비동기 파이프라인 구축으로 API `Latency`를 `84%` 단축했습니다.
 
-### Hwaryeohan Deokhudeul · Full Stack Developer
-- Led admin API integration while collaborating directly with publishers on SI/SM projects.
-- Built real-time ordering and chat flows with Redis Pub/Sub and STOMP/WebSocket.
-- Improved stability by `43%` with server redundancy.
+### 화려한덕후들 · 풀스택 개발자
+- SI/SM 프로젝트에서 퍼블리셔와 직접 협업하며 관리자 API 설계·구현·연동을 주도했습니다.
+- Redis Pub/Sub, STOMP/WebSocket 기반으로 실시간 주문 및 채팅 흐름을 구축했습니다.
+- 서버 이중화 구성으로 동일 시나리오 기준 안정성을 개선했습니다.
 
-## Tech Stack
+## 기술 스택
 
-### Backend
+### 백엔드
 <img src="https://skillicons.dev/icons?i=java,spring,gradle&theme=light" alt="Backend stack" />
 <br />
 `WebFlux` `JPA` `jOOQ` `MyBatis` `STOMP`
 
-### Database & Cache
+### 데이터베이스 / 캐시
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=light" alt="Database and cache" />
 <br />
 `MariaDB` `Oracle`
 
-### Infra & DevOps
+### 인프라 / 데브옵스
 <img src="https://skillicons.dev/icons?i=linux,docker,nginx,jenkins&theme=light" alt="Infra and DevOps" />
 <br />
 `Apache` `JBoss` `Tomcat` `Jeus/WebToB` `GitLab Runner` `AWS EC2/S3`
 
-### Frontend / App
+### 프론트엔드 / 앱
 <img src="https://skillicons.dev/icons?i=flutter,js,html,css&theme=light" alt="Frontend and app" />
 <br />
 `JSP` `Thymeleaf`
 
-### AI Tools
-- `Claude` for code generation / agent workflows
-- `Codex` for documentation and code review
-- `Gemini` for research
-- `Stitch` for UI prototyping
+### AI 도구
+- `Claude`: 코드 생성 / 에이전트 워크플로우
+- `Codex`: 문서 정리 / 코드리뷰
+- `Gemini`: 리서치
+- `Stitch`: UI 프로토타이핑
 
-## How I Work with AI
+## AI 활용 방식
 
-| Delegate to AI | I take ownership of |
+| AI에게 위임 | 내가 책임지는 것 |
 | --- | --- |
-| Boilerplate implementation | Architecture decisions |
-| Draft refactors | Trade-off decisions |
-| Test scaffolding | Root-cause analysis |
-| Document formatting | Code review and team communication |
+| 반복적인 보일러플레이트 구현 | 아키텍처 결정 |
+| 리팩토링 초안 작성 | 트레이드오프 판단 |
+| 테스트 초안 작성 | 장애 원인 분석 |
+| 문서 초안 및 포맷 정리 | 코드리뷰와 팀 커뮤니케이션 |
 
-## Writing & Contact
+## 링크
 
 - Blog: https://gang-dev0nly.tistory.com/
 - LinkedIn: https://www.linkedin.com/in/%EA%B2%BD%EB%AF%BC-%EA%B9%80-841a69340/
