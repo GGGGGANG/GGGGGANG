@@ -1,7 +1,7 @@
 <h1 align="left">김경민</h1>
 
 <p align="left">
-  <strong>AI-Native 백엔드 엔지니어 · 4년차</strong><br />
+  <strong>백엔드 엔지니어 · 4년차</strong><br />
   Java, Spring Boot, WebFlux, Redis, 실시간 아키텍처, 운영 인프라
 </p>
 
