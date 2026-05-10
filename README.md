@@ -2,7 +2,7 @@
 
 <p align="left">
   <strong>백엔드 개발자 · 4년차</strong><br />
-  Java, Kotlin, Spring Boot, WebFlux, Kafka, Redis, PostgreSQL, 운영 인프라
+  Java, Spring Boot, WebFlux, Kafka, Redis, PostgreSQL, 운영 인프라
 </p>
 
 <p align="left">
@@ -20,7 +20,7 @@
 
 ## 소개
 
-- Java/Kotlin/Spring 기반 백엔드 개발을 중심으로, 필요에 따라 JSP, Thymeleaf, Flutter 영역까지 함께 다뤄왔습니다.
+- Java/Spring 기반 백엔드 개발을 중심으로, 필요에 따라 JSP, Thymeleaf, Flutter 영역까지 함께 다뤄왔습니다.
 - Spring Boot, WebFlux/WebClient, MyBatis, JPA, jOOQ를 사용해 REST API와 데이터 접근 계층을 구현했습니다.
 - Kafka, Redis, STOMP/WebSocket, SSE 기반의 비동기 처리와 실시간 상태 전달 기능을 개발했습니다.
 - Nginx, Apache, Tomcat, JBoss, Jeus/WebToB, Jenkins, GitLab Runner 등 운영·배포 환경을 직접 구성한 경험이 있습니다.
