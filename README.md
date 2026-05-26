@@ -24,24 +24,11 @@
 - WebFlux/WebClient, Kafka, Redis Pub/Sub, STOMP/WebSocket, SSE 기반의 비동기 처리와 실시간 상태 전달 기능을 개발했습니다.
 - MyBatis, JPA, jOOQ를 사용해 CRUD 생산성과 복잡 쿼리 제어가 모두 필요한 데이터 접근 계층을 구현했습니다.
 - Nginx, Apache, Tomcat, JBoss, Jeus/WebToB, Jenkins, GitLab Runner, Docker 기반 운영·배포 환경을 구성했습니다.
-- 개선 결과는 수치로 확인하고 기록합니다. 외부 LLM API 응답 시간은 12,514ms에서 1,890ms로, 상세 페이지 응답 시간은 4,062ms에서 135ms로 줄인 경험이 있습니다.
-
-<br />
-
-## 주요 경험
-
-### 세이코어 · 백엔드 개발자 / 데브옵스
-
-- **SCOA Workmate**: Java 21, Spring Boot 3.4, WebFlux, R2DBC, Kafka, PostgreSQL, Redis 기반 문서 처리 파이프라인을 개발하고 있습니다. Kafka message key와 requestId 기준으로 요청 이력, 처리 로그, 결과 이벤트를 연결하고, 중복 이벤트 수신을 고려해 상태 갱신 흐름을 정리했습니다.
-- **대용량 파일 업로드 안정화**: 단일 긴 요청 대신 init / chunks / complete 3단계 File Chunk Upload 구조를 적용했습니다. Redis TTL로 업로드 세션을 관리하고, MinIO multipart upload와 lifecycle rule을 함께 사용해 실패 후 재시도와 스토리지 정리 기준을 분리했습니다.
-- **공공기관 프로젝트 개발·운영**: TTA 온라인평가시스템, 국립과천과학관 전시물품관리시스템, 보건복지부 금연길라잡이 리뉴얼에서 API 개발, 레거시 분석, 외부 연계 유지보수, 배포 파이프라인 구성을 담당했습니다.
-- **TTA AI 신뢰성 검·인증 도구**: 외부 LLM API 일괄 호출 흐름을 WebFlux/WebClient 기반으로 정리해 다건 요청 응답 시간을 12,514ms에서 1,890ms로 줄였습니다.
-
-### 화려한덕후들 · 풀스택 개발자
-
-- **미래엔 엠티처 교수활동 플랫폼 리뉴얼**: 상세 페이지 조회 로직의 반복 I/O와 중복 데이터 조립 문제를 줄이고, MyBatis resultMap/collection 매핑으로 응답 구조를 정리했습니다. 측정 기준 응답 시간은 4,062ms에서 135ms로 개선했습니다.
-- **자사 STOMP 채팅 서버 / 키오스크 앱**: Redis Pub/Sub, STOMP/WebSocket 기반 실시간 주문·채팅 흐름을 구현했습니다. 동일 부하 시나리오에서 서버 이중화 구성 후 오류율을 20.54%에서 11.71%로 낮췄습니다.
-- **기업 웹사이트·관리자 시스템 리뉴얼**: 티맥스소프트, 몽고식품 프로젝트에서 관리자 API 설계·구현, 화면 연동, CORS·토큰 인증 연동을 담당했습니다.
+- **SCOA Workmate**에서 Java 21, Spring Boot 3.4, WebFlux, R2DBC, Kafka, PostgreSQL, Redis 기반 문서 처리 파이프라인을 개발하고 있습니다. Kafka message key와 requestId 기준으로 요청 이력, 처리 로그, 결과 이벤트를 연결하고, 중복 이벤트 수신을 고려해 상태 갱신 흐름을 정리했습니다.
+- **TTA AI 신뢰성 검·인증 도구**에서 외부 LLM API 일괄 호출 흐름을 WebFlux/WebClient 기반으로 정리해 다건 요청 응답 시간을 12,514ms에서 1,890ms로 줄였습니다.
+- **미래엔 엠티처 교수활동 플랫폼 리뉴얼**에서 상세 페이지 조회 로직의 반복 I/O와 중복 데이터 조립 문제를 줄이고, MyBatis resultMap/collection 매핑으로 응답 시간을 4,062ms에서 135ms로 개선했습니다.
+- **자사 STOMP 채팅 서버 / 키오스크 앱**에서 Redis Pub/Sub, STOMP/WebSocket 기반 실시간 주문·채팅 흐름을 구현하고, 동일 부하 시나리오 기준 오류율을 20.54%에서 11.71%로 낮췄습니다.
+- TTA 온라인평가시스템, 국립과천과학관 전시물품관리시스템, 보건복지부 금연길라잡이 리뉴얼에서 API 개발, 레거시 분석, 외부 연계 유지보수, 배포 파이프라인 구성을 담당했습니다.
 
 <br />
 
@@ -60,12 +47,3 @@
 - 성능 개선은 감이 아니라 동일 시나리오의 before/after 수치로 확인합니다.
 - 기술은 사용 경험을 늘리기 위해 고르기보다, 현재 문제와 운영 제약에 맞는지 기준을 세워 선택합니다.
 - AI 개발 도구는 반복 구현, 리팩토링, 문서화 보조에 활용하되 요구사항 해석, 아키텍처 판단, 코드 검증은 직접 책임집니다.
-
-<br />
-
-## 공개 저장소
-
-- 실무 프로젝트 코드는 계약 및 보안상 공개하지 않습니다.
-- GitHub는 공개 가능한 학습 기록과 예제 코드 중심으로 관리합니다.
-- 실무 상세 사례와 의사결정 과정은 이력서와 경력기술서에 정리했습니다.
-- [algorithm-study](https://github.com/GGGGGANG/algorithm-study): 알고리즘 개념을 Java와 JUnit 5 기반 테스트로 정리하는 학습 저장소입니다.
